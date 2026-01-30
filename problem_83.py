@@ -6,4 +6,4 @@ def kth_smallest(arr, k):
     return sorted_arr[k]
 
 numbers = [7, 10, 4, 3, 20, 15]
-print(f"3rd smallest: {kth_smallest(numbers, 3)}")
+print(f"3rd smallest:{kth_smallest(numbers, 3)}")

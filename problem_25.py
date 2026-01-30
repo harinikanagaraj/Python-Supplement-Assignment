@@ -3,7 +3,7 @@
 
 def gcd(a, b):
     while b != 0:
-        temp = b
+        temp= b
         b = a % b
         a = temp
     return a

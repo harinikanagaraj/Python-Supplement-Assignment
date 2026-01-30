@@ -9,4 +9,4 @@ def sum_of_digits(n):
         n = n / 10
     return total
 
-print(f"Sum of digits of 12345: {sum_of_digits(12345)}")
+print(f"Sum of digits of 12345:{sum_of_digits(12345)}")

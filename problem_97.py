@@ -11,5 +11,5 @@ def remove_element(nums, val):
 
 numbers = [3, 2, 2, 3, 4, 5]
 length = remove_element(numbers, 3)
-print(f"New length: {length}")
-print(f"Modified list: {numbers[:length]}")
+print(f"New length:{length}")
+print(f"Modified list:{numbers[:length]}")

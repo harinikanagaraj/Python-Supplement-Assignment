@@ -9,4 +9,4 @@ def nth_fibonacci(n):
         a, b = b, a + b
     return b
 
-print(f"10th Fibonacci number: {nth_fibonacci(10)}")
+print(f"10th Fibonacci number:{nth_fibonacci(10)}")

@@ -2,7 +2,7 @@
 # Find and fix the error
 
 def reverse_words(sentence):
-    words = sentence.split()
+    words= sentence.split()
     reversed_words = []
     for word in words:
         reversed_words.append(word[::-1])

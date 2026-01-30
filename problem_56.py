@@ -9,5 +9,5 @@ def remove_vowels(text):
             result += char
     return result
 
-sentence = "Hello World"
+sentence="Hello World"
 print(f"Without vowels: {remove_vowels(sentence)}")

@@ -2,7 +2,7 @@
 # Find and fix the error
 
 def fahrenheit_to_celsius(fahrenheit):
-    celsius = (fahrenheit - 32) * 5/9
+    celsius=(fahrenheit - 32) * 5/9
     return celsius
 
 temp_f = 98.6

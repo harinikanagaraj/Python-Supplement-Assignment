@@ -10,5 +10,10 @@ def calculator(a, b, operation):
         return a * b
     elif operation == "divide":
         return a / b
+    else:
+        return "Invalid operation"
 
-print(f"10 / 0 = {calculator(10, 0, 'divide')}")
+print(calculator(10,5,"add"))
+print(calculator(10,5,"subtract"))
+print(calculator(10,5,"multiply"))
+print(calculator(10,5,"divide"))

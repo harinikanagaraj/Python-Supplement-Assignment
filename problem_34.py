@@ -1,7 +1,7 @@
 # Problem 34: Copy a list
 # Find and fix the error
 
-original = [1, 2, 3, 4, 5]
+original= [1, 2, 3, 4, 5]
 copy = original
 copy.append(6)
 print(f"Original: {original}")

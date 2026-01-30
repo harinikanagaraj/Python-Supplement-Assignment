@@ -2,7 +2,7 @@
 # Find and fix the error
 
 text = "python programming"
-uppercase = ""
+uppercase = text.upper()
 for char in text:
     if char >= 'a' and char <= 'z':
         uppercase += chr(ord(char) - 32)

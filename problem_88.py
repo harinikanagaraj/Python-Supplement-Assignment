@@ -9,4 +9,4 @@ def all_substrings(text):
     return substrings
 
 word = "abc"
-print(f"All substrings: {all_substrings(word)}")
+print(f"All substrings:{all_substrings(word)}")

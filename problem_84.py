@@ -8,4 +8,4 @@ def contains_substring(text, substr):
     return False
 
 sentence = "Python programming is fun"
-print(f"Contains 'fun': {contains_substring(sentence, 'fun')}")
+print(f"Contains 'fun':{contains_substring(sentence, 'fun')}")
